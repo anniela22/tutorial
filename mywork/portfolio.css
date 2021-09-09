@@ -1,0 +1,132 @@
+#port{
+    height:900px;
+    background:#126868;
+    text-align:center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  #port h2{
+      margin-top: 100px;
+  }
+  .works{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-top: 50px;
+  }
+    
+  .worka{
+    margin:35px 20px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  .aimg{
+   width:330px;
+   height:330px;
+   object-fit: cover;
+  
+  }
+  .atitle{
+    width:330px;
+    height:60px;
+    line-height:60px;
+    background:#444040;
+    font-size:20px;
+  }
+  .code{
+    color:#444040;
+    margin:0 5px;
+  }
+  .atitle:hover .code{
+   color:#f3953f;
+  }
+  #topic{
+    height:900px;
+    background:#072222;
+    text-align:center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  #pro{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    align-items: center;
+    margin: 50px 30px;
+  }
+  .project{
+    width: 335px;
+    height: 600px;
+    margin: 0 30px;
+  }
+  #design{
+    height:920px;
+    background:#126868;
+    text-align:center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  #poster{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    align-items: center;
+    margin: 50px 30px;
+  }
+  .poster{
+      width: 424px;
+      height: 600px;
+      margin: 0 30px;
+  }
+  #contant{
+    height:500px;
+    background:#072222;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  #p1{
+    color:white;
+    font-size:25px;
+    font-weight:100;
+    font-style:italic;
+    margin-bottom:15px;
+  }
+  #con{
+      font-size: 20px;
+      margin-top: 40px;
+  }
+  #contantnav{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    margin-top:20px;
+    font-size:25px;
+  }
+  .btn-contact-details{
+    transition: transform 0.3s ease-out;
+  }
+  .btn-contact-details:hover{
+   transform: translateY(8px);
+  }
+  .img{
+    width:38px;
+    height:38px;
+    vertical-align:-28%;
+    margin:0 8px 0 30px;
+  }
+
